@@ -32,10 +32,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="23" selection-end="23" vertical-scroll-proportion="0.085409254" vertical-offset="0" max-vertical-offset="562">
+            <state line="2" column="5" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="192">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hellodj/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hellodj/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.21352313" vertical-offset="0" max-vertical-offset="562">
               <folding />
             </state>
           </provider>
@@ -54,6 +74,8 @@
         <option value="$PROJECT_DIR$/hellodj/wsgi.py" />
         <option value="$PROJECT_DIR$/hellodj/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/hellodj/urls.py" />
+        <option value="$PROJECT_DIR$/hellodj/views.py" />
       </list>
     </option>
   </component>
@@ -425,7 +447,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="23" selection-end="23" vertical-scroll-proportion="0.085409254" vertical-offset="0" max-vertical-offset="562">
+        <state line="2" column="5" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="192">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodj/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodj/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.21352313" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>
