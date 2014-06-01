@@ -13,6 +13,7 @@ class User(models.Model):
     website = models.URLField()
     datetime_created = models.DateTimeField(auto_now_add=True)
     last_log_in_datetime = models.DateTimeField()
+    email = models.EmailField()
 
 
     def __str__(self):
@@ -20,7 +21,8 @@ class User(models.Model):
 
 
 
-class User_Feed(models.Model):
+class User_Post(models.Model):
+    post_title = models.CharField(max_length=100)
     feed_text = models.TextField(max_length=3000)
     user = models.ForeignKey(User)
-    datetime_created = models.DateTimeField(auto_now_add=True)
+    creation_time = models.DateTimeField(auto_now_add=True)
