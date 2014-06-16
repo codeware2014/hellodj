@@ -7,7 +7,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/earthmiles/models.py" afterPath="$PROJECT_DIR$/earthmiles/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodj/settings.py" afterPath="$PROJECT_DIR$/hellodj/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodj/urls.py" afterPath="$PROJECT_DIR$/hellodj/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/earthmiles/views.py" afterPath="$PROJECT_DIR$/earthmiles/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/earthmiles/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="841" selection-end="1131" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1344">
+            <state line="24" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.12027492" vertical-offset="471" max-vertical-offset="1344">
               <folding />
             </state>
           </provider>
@@ -44,17 +43,19 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hellodj/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="17" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="822" max-vertical-offset="2808">
+            <state line="36" column="17" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="2736">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="serializers.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/earthmiles/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="39" selection-start="364" selection-end="364" vertical-scroll-proportion="0.4631579" vertical-offset="0" max-vertical-offset="570">
-              <folding />
+            <state line="13" column="32" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <folding>
+                <element signature="e#20#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +72,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/earthmiles/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
+            <state line="11" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="528">
               <folding />
             </state>
           </provider>
@@ -89,7 +90,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/earthmiles/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+            <state line="12" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
               <folding />
             </state>
           </provider>
@@ -107,7 +108,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hellodj/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+            <state line="6" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -141,11 +142,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/hellodj/views.py" />
         <option value="$PROJECT_DIR$/hellodj/settings.py" />
-        <option value="$PROJECT_DIR$/earthmiles/admin.py" />
         <option value="$PROJECT_DIR$/hellodj/urls.py" />
         <option value="$PROJECT_DIR$/earthmiles/views.py" />
-        <option value="$PROJECT_DIR$/earthmiles/models.py" />
         <option value="$PROJECT_DIR$/earthmiles/serializers.py" />
+        <option value="$PROJECT_DIR$/earthmiles/models.py" />
+        <option value="$PROJECT_DIR$/earthmiles/admin.py" />
       </list>
     </option>
   </component>
@@ -477,6 +478,11 @@
       <created>1401491814181</created>
       <updated>1401491814181</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit&#10;">
+      <created>1402944310967</created>
+      <updated>1402944310967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,13 +495,14 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.336293" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.336293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.336293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -516,6 +523,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="first commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -577,7 +586,9 @@
     <entry file="file://$PROJECT_DIR$/earthmiles/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="480">
-          <folding />
+          <folding>
+            <element signature="e#20#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -823,21 +834,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hellodj/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="822" max-vertical-offset="2808">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/earthmiles/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+        <state line="36" column="17" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="2736">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hellodj/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+        <state line="6" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -853,21 +857,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/earthmiles/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/earthmiles/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="841" selection-end="1131" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1344">
+        <state line="11" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="528">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/earthmiles/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="364" selection-end="364" vertical-scroll-proportion="0.4631579" vertical-offset="0" max-vertical-offset="570">
+        <state line="13" column="32" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding>
+            <element signature="e#20#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/earthmiles/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/earthmiles/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.12027492" vertical-offset="471" max-vertical-offset="1344">
           <folding />
         </state>
       </provider>

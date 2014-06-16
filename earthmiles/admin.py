@@ -9,5 +9,5 @@ from earthmiles import models
 
 admin.site.register(models.User)
 admin.site.register(models.User_Post)
-
 admin.site.register(models.Snippet)
+
