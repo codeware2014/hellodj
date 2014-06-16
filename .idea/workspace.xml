@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06a5849d-4c12-426a-a87d-85607a929bff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/earthmiles/admin.py" afterPath="$PROJECT_DIR$/earthmiles/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/earthmiles/models.py" afterPath="$PROJECT_DIR$/earthmiles/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodj/settings.py" afterPath="$PROJECT_DIR$/hellodj/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodj/urls.py" afterPath="$PROJECT_DIR$/hellodj/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/earthmiles/views.py" afterPath="$PROJECT_DIR$/earthmiles/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hellodj.iws" />
@@ -34,7 +29,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/earthmiles/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.12027492" vertical-offset="471" max-vertical-offset="1344">
+            <state line="52" column="8" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.8900344" vertical-offset="471" max-vertical-offset="1392">
               <folding />
             </state>
           </provider>
@@ -145,8 +140,8 @@
         <option value="$PROJECT_DIR$/hellodj/urls.py" />
         <option value="$PROJECT_DIR$/earthmiles/views.py" />
         <option value="$PROJECT_DIR$/earthmiles/serializers.py" />
-        <option value="$PROJECT_DIR$/earthmiles/models.py" />
         <option value="$PROJECT_DIR$/earthmiles/admin.py" />
+        <option value="$PROJECT_DIR$/earthmiles/models.py" />
       </list>
     </option>
   </component>
@@ -482,7 +477,11 @@
       <created>1402944310967</created>
       <updated>1402944310967</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit&#10;">
+      <created>1402946278065</created>
+      <updated>1402946278065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -880,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/earthmiles/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.12027492" vertical-offset="471" max-vertical-offset="1344">
+        <state line="52" column="8" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.8900344" vertical-offset="471" max-vertical-offset="1392">
           <folding />
         </state>
       </provider>
