@@ -2,15 +2,17 @@ from django.shortcuts import render
 
 # Create your views here.
 
-from django.contrib.auth.models import User, Group
-from rest_framework import viewsets
-from earthmiles.serializers import UserSerializer,GroupSerializer
+from earthmiles.models import Snippet
+from earthmiles.serializers import SnippetSerializer
+from rest_framework import generics
 
-class UserViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
 
-class GroupViewSet(viewsets.ModelViewSet):
-    queryset = Group.objects.all()
-    serializer_class = GroupSerializer
+class SnippetList(generics.ListCreateAPIView):
+    queryset = Snippet.objects.all()
+    serializer_class = SnippetSerializer
+
+
+class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Snippet.objects.all()
+    serializer_class = SnippetSerializer
 

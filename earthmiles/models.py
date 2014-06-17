@@ -28,12 +28,12 @@ class User(models.Model):
         return  u'%s %s' % (self.first_name, self.last_name)
 
 
-
 class User_Post(models.Model):
     post_title = models.CharField(max_length=100)
     feed_text = models.TextField(max_length=3000)
     user = models.ForeignKey(User)
     creation_time = models.DateTimeField(auto_now_add=True)
+
 
 class Snippet(models.Model):
     created = models.DateTimeField(auto_now_add=True)
@@ -49,4 +49,3 @@ class Snippet(models.Model):
 
     class Meta:
         ordering = ('created',)
-        new = 1

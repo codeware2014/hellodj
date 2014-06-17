@@ -60,24 +60,24 @@ WSGI_APPLICATION = 'hellodj.wsgi.application'
 
 
 # for sqlite
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
-
-# #for postgresql
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'hellodj',
-#         'USER': 'postgres',
-#         'PASSWORD': 'hellodj',
-#         'HOST': 'localhost'
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
+
+
+#for postgresql
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'earthmiles',
+        'USER': 'postgres',
+        'PASSWORD': 'admin',
+        'HOST': 'localhost'
+    }
+}
 
 
 # Internationalization
