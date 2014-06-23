@@ -15,8 +15,10 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', 'hellodj.views.home'),
     url(r'^admin/', include(admin.site.urls)),
-    #url(r'^', include(router.urls)),    #this one makes the home page a testing ground for the rest apis
-    #url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+
+
+
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^', include('earthmiles.urls')),
 
 )
