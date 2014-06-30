@@ -9,17 +9,20 @@ from django.contrib.auth.models import User
 
 class SnippetSerializer(serializers.ModelSerializer):
 
-    owner = serializers.Field(source='owner.username')
+    ownerName =serializers.Field(source = 'owner.username')
 
     class Meta:
         model = Snippet
-        fields = ('id', 'title', 'code', 'linenos', 'language', 'style', 'owner')
+        fields = ('id', 'title', 'code', 'linenos', 'language', 'style', 'owner', 'ownerName')# , 'url') #, 'highlight')
+
+
 
 
 class UserSerializer(serializers.ModelSerializer):
-    snippets = serializers.PrimaryKeyRelatedField(many=True)
+
+    snippetList =  SnippetSerializer(source = 'snippets', many=True)
 
     class Meta:
         model = User
-        fields = ('id', 'username', 'snippets')
-
+        fields = ('id', 'username', 'snippets', 'snippetList')#, 'url')
+        depth = 1

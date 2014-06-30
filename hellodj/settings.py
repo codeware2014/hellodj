@@ -106,3 +106,6 @@ STATIC_URL = '/static/'
 # }
 
 
+REST_FRAMEWORK = {
+    'PAGINATE_BY': 10
+}
